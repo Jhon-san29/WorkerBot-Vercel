@@ -9,6 +9,7 @@ const CHANNELS = [
   '@shalplaymovie'
 ];
 
+
 module.exports = async (req, res) => {
   if (req.method === 'POST') {
     const msg = req.body.message;
